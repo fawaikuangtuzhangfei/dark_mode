@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "自定义暗黑模式",
+  "version": "1.0",
+  "description": "为用户指定的网页启用暗黑模式",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+} 
