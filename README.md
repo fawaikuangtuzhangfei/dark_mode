@@ -34,14 +34,14 @@
 5. 如需删除某个网址，点击对应的"删除"按钮即可
 
 ## 文件结构
-
+```txt
 ├── manifest.json     // 插件配置文件
 ├── popup.html       // 弹出窗口界面
 ├── popup.js         // 弹出窗口逻辑
 ├── background.js    // 后台服务脚本
 └── icons/          // 图标文件夹
     └── icon.png    // 插件图标
-
+```
 ## 技术实现
 
 - 使用 Chrome Extension Manifest V3
